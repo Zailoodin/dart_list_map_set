@@ -71,4 +71,11 @@ I * Started * Learn * Flutter * Since * April
   List strings = ['I', 'Started', 'Learn', 'Flutter', 'Since', 'April'];
   String myFlutter;
   print( strings.join('*'));
+
+/*  8) У вас есть массив со значением = [1, 9, 3, 195, 202, 2, 5, 7, 9, 10, 3, 15, 0, 11];
+Ваша задача провести сортировку массива, чтобы все элементы начинались по возрастающей. Вы должны получить в консоли:
+[0, 1, 2, 3, 3, 5, 7, 9, 9, 10, 11, 15, 195, 202]*/
+var integers = [1, 9, 3, 195, 202, 2, 5, 7, 9, 10, 3, 15, 0, 11];
+integers.sort();
+print(integers);
 }
